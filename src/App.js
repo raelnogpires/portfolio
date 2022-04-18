@@ -7,10 +7,12 @@ import About from './pages/About';
 
 function App() {
   return (
-    <>
-      <Route exact path="/" component={ Home } />
-      <Route path="/about" component={ About } />
-    </>
+    // <>
+    //   <Route exact path="/" component={ Home } />
+    //   <Route path="/about" component={ About } />
+    // </>
+    // <p>oi</p>
+    <Home />
   );
 }
 

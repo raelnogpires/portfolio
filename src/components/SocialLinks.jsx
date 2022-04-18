@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 
 const githubUrl = 'https://github.com/raelnogpires';
 const linkedinUrl = 'https://www.linkedin.com/in/rnogpires/';
@@ -13,9 +14,7 @@ export default class SocialLinks extends Component {
           rel="noopener noreferrer"
           className="git-link"
         >
-          <p>
-            github
-          </p>
+          <AiFillGithub />
         </a>
         <a
           href={ linkedinUrl }
@@ -23,9 +22,7 @@ export default class SocialLinks extends Component {
           rel="noopener noreferrer"
           className="linked-link"
         >
-          <p>
-            linkedin
-          </p>
+          <AiFillLinkedin />
         </a>
       </>
     )
