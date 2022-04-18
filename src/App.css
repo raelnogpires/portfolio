@@ -124,10 +124,10 @@ img {
   width: 60%;
   padding: 15px;
   text-align: center;
+  padding-bottom: 50px;
 }
 
 #icon-div {
-  border: 1px red;
   display: flex;
   justify-content: space-evenly;
   width: 660;
@@ -137,8 +137,11 @@ img {
 }
 
 .skill-icon {
+  align-items: center;
   font-size: 40px;
   padding-right: 10px;
+  text-align: center;
+  width: 80px;
 }
 
 .skill-icon p {
@@ -168,11 +171,6 @@ img {
 
 /* Responsivo */
 
-@media (min-width: 1000px ) and (max-width: 1400px) {
-  /* Tablet */
-  #cards-div { margin-bottom: 200px }
-}
-
 @media (min-width: 300px ) and (max-width: 800px) {
   /* Phone */
   #name { font-size: 35px }
@@ -185,7 +183,11 @@ img {
 
   #hi { font-size: 27px; }
 
-  #projects-intro-text { margin-bottom: 15px; }
+  #tech { font-size: 22px; }
 
-  #projects-intro-text span { font-size: 18px; }
+  #icon-div {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 90%;
+  }
 }

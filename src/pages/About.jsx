@@ -23,7 +23,7 @@ export default class About extends Component {
           </span>
         </div>
         <div id="skills">
-          <h3>Tecnologias</h3>
+          <h3 id="tech">Tecnologias</h3>
           <div id="icon-div">
             <Skills />
           </div>
