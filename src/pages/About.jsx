@@ -5,10 +5,6 @@ import Skills from '../components/Skills';
 import perfilPhoto from '../perfil-photo.jpeg';
 
 export default class About extends Component {
-  componentDidMount() {
-    document.title = 'Rael - Dev | Sobre';
-  }
-
   render() {
     return (
       <div id="main-about">
@@ -22,7 +18,8 @@ export default class About extends Component {
           <h2 id="hi">Olá, eu sou o Rael!</h2>
           <span id="about-text">
             Moro em São Sebastião/SP, aonde nasci e fui criado - um autêntico "caiçara". Aos 20 anos terminei uma graduação em Gestão Pública e decidi estudar sobre algo que sempre esteve ao meu redor e presente na minha vida, a Tecnologia.<br />
-            <br />Atualmente sou estudante de Desenvolvimento Web Full-Stack pela Trybe, uma escola que te ensina a programar, a aprender e a trabalhar. Sigo estudando e trabalhando para poder contribuir com a sociedade e ajudar o mundo a ser um lugar melhor!
+            <br />Sou desenvolvedor Front-end, mas continuo trilhando meus estudos na Trybe para me tornar um desenvolvedor Web Full Stack. A área de Back-end me chama atenção e estou gostando de desenvolver projetos nesse ambiente.<br />
+            <br />Sigo estudando e trabalhando para poder contribuir com a sociedade e ajudar o mundo a ser um lugar melhor!
           </span>
         </div>
         <div id="skills">

@@ -3,12 +3,6 @@ import Header from '../components/Header';
 import SocialLinks from '../components/SocialLinks';
 
 export default class Home extends Component {
-  // Change the title of you page
-  // https://stackoverflow.com/a/52448126
-  componentDidMount() {
-    document.title = 'Rael - Dev | Home';
-  }
-
   render() {
     return (
       <div id="main-home">
@@ -17,7 +11,7 @@ export default class Home extends Component {
         </div>
         <div id="name-and-stack">
           <span id="name">Rael Nogueira Pires</span>
-          <span id="stack">software engineer</span>
+          <span id="stack">front-end developer</span>
         </div>
         <div id="social-links">
           <SocialLinks />
