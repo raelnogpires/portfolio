@@ -61,7 +61,7 @@ html { overflow-y: scroll }
 }
 
 /* https://pt.stackoverflow.com/questions/46582/mudar-cor-do-svg-no-hover */
-svg:hover path { fill: #e4e4e4b0 }
+svg:hover path { fill: #8a34e0d2 }
 
 #nav-links {
   width: 300px;
@@ -119,6 +119,31 @@ img {
 #skills {
   font-size: 25px;
   color: #e2e2e2;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding: 15px;
+  text-align: center;
+}
+
+#icon-div {
+  border: 1px red;
+  display: flex;
+  justify-content: space-evenly;
+  width: 660;
+  padding: 15px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.skill-icon {
+  font-size: 40px;
+  padding-right: 10px;
+}
+
+.skill-icon p {
+  margin-top: 3px;
+  font-size: 15px;
 }
 
 /* draw underline link hover effect */

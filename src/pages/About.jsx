@@ -27,8 +27,8 @@ export default class About extends Component {
         </div>
         <div id="skills">
           <h3>Tecnologias</h3>
-          <div>
-           <Skills />
+          <div id="icon-div">
+            <Skills />
           </div>
         </div>
         <div id="social-links">
