@@ -11,7 +11,7 @@ export default class Home extends Component {
         </div>
         <div id="name-and-stack">
           <span id="name">Rael Nogueira Pires</span>
-          <span id="stack">front-end developer</span>
+          <span id="stack">full stack developer</span>
         </div>
         <div id="social-links">
           <SocialLinks />
