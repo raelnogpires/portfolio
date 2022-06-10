@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { FaHtml5, FaCss3Alt, FaGitAlt, FaReact, FaNodeJs } from 'react-icons/fa';
-import { IoLogoJavascript } from 'react-icons/io5';
-import { SiJest } from 'react-icons/si';
+import { SiJest, SiTypescript, SiSequelize, SiExpress, SiJavascript, SiGoland } from 'react-icons/si';
 import { GrMysql } from 'react-icons/gr';
 
 export class Skills extends Component {
@@ -21,8 +20,16 @@ export class Skills extends Component {
         <p>Git</p>
       </div>
       <div className="skill-icon">
-        <IoLogoJavascript />
+        <SiJavascript />
         <p>JavaScript</p>
+      </div>
+      <div className="skill-icon">
+        <SiTypescript />
+        <p>TypeScript</p>
+      </div>
+      <div className="skill-icon">
+        <SiGoland />
+        <p>Golang</p>
       </div>
       <div className="skill-icon">
         <FaReact />
@@ -35,6 +42,14 @@ export class Skills extends Component {
       <div className="skill-icon">
         <FaNodeJs />
         <p>NodeJS</p>
+      </div>
+      <div className="skill-icon">
+        <SiExpress />
+        <p>Express</p>
+      </div>
+      <div className="skill-icon">
+        <SiSequelize />
+        <p>Sequelize</p>
       </div>
       <div className="skill-icon">
         <GrMysql />
