@@ -1,0 +1,17 @@
+[
+  {
+    "name": "LibraryApp",
+    "description": "Uma Rest API em Go que simula o gerenciamento de uma biblioteca.",
+    "url": "https://github.com/raelnogpires/libraryapp"
+  },
+  {
+    "name": "Trybers and Dragons",
+    "description": "Uma estrutura de RPG desenvolvida utilizando TypeScript, POO e SOLID.",
+    "url": "https://github.com/raelnogpires/trybers-and-dragons"
+  },
+  {
+    "name": "One for All",
+    "description": "Modelagem de banco, normalização e queries utilizando MySQL.",
+    "url": "https://github.com/raelnogpires/one-for-all-sql"
+  }
+]

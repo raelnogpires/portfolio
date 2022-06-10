@@ -7,6 +7,7 @@ export default class Header extends Component {
       <>
         <Link to="/" className="home hover">home</Link>
         <Link to="/about" className="about hover">sobre</Link>
+        <Link to="/projects" className="project hover">projetos</Link>
       </>
     );
   }

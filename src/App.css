@@ -61,7 +61,10 @@ html { overflow-y: scroll }
 }
 
 /* https://pt.stackoverflow.com/questions/46582/mudar-cor-do-svg-no-hover */
-svg:hover path { fill: #8a34e0d2 }
+svg:hover path {
+  fill: #8a34e0d2;
+  transition: 0.4s;
+}
 
 #nav-links {
   width: 300px;
@@ -77,6 +80,12 @@ svg:hover path { fill: #8a34e0d2 }
 }
 
 .about {
+  color: inherit;
+  font-size: 27px;
+  text-decoration: none;
+}
+
+.project {
   color: inherit;
   font-size: 27px;
   text-decoration: none;
@@ -147,6 +156,59 @@ img {
 .skill-icon p {
   margin-top: 3px;
   font-size: 15px;
+}
+
+#main-project {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  left: 0;
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+#page-info {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#page-info h2 {
+  color: inherit;
+  font-size: 27px;
+}
+
+#projects-div {
+  display: flex;
+  justify-content: space-evenly;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+}
+
+#card-div {
+  /* background-color: #262829; */
+  background-color: #1f2325;
+  border-radius: 7px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+  height: 160px;
+  width: 300px;
+  text-align: center;
+}
+
+#card-div a {
+  text-decoration: none;
+}
+
+#card-div p, #card-div h3 {
+  background-color: #1f2325;
+}
+
+#card-div h3:hover {
+  color: #8a34e0d2;
+  transition: 0.3s;
 }
 
 /* draw underline link hover effect */

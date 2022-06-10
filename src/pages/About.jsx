@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
+
 import Header from '../components/Header';
 import SocialLinks from '../components/SocialLinks';
 import Skills from '../components/Skills';
+
 import perfilPhoto from '../perfil-photo.jpeg';
 
 export default class About extends Component {
