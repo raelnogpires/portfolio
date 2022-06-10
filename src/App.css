@@ -252,4 +252,14 @@ img {
     justify-content: space-evenly;
     width: 90%;
   }
+
+  #page-info {
+    width: 80%;
+  }
+
+  #projects-div {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
 }
