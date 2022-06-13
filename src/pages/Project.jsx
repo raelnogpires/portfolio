@@ -15,7 +15,7 @@ export default class Project extends Component {
             <Header />
           </div>
           <div id="page-info">
-            <p>Projetos que realizei para consolidar conhecimentos e tecnologia dentro e fora da Trybe.</p>
+            <p>Projetos que realizei para consolidar conhecimentos e tecnologias dentro e fora da Trybe.</p>
           </div>
           <div id="projects-div">
             { data.map((p) => {
