@@ -1,7 +1,7 @@
 [
   {
     "name": "LibraryApp",
-    "description": "Uma Rest API em Go que simula o gerenciamento de uma biblioteca.",
+    "description": "Uma REST API em Go que simula o gerenciamento de uma biblioteca.",
     "url": "https://github.com/raelnogpires/libraryapp"
   },
   {
@@ -13,5 +13,10 @@
     "name": "One for All",
     "description": "Modelagem de banco, normalização e queries utilizando MySQL.",
     "url": "https://github.com/raelnogpires/one-for-all-sql"
+  },
+  {
+    "name": "Store Manager",
+    "description": "Uma REST API em JavaScript de gerenciamento de vendas e produtos.",
+    "url": "https://github.com/raelnogpires/store-manager"
   }
 ]
